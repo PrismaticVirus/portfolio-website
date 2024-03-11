@@ -2,12 +2,8 @@
 *{
     font-family: 'Madimi One', sans-serif;
 }
-header{
 
-    display: grid;
-    grid-template-columns: 20% 80%;
-    font-family: 'Madimi One', sans-serif;
-}
+/* -- Navigation Bar Stuff -- */
 nav a{
     text-decoration: none;
     color: white;
@@ -22,14 +18,24 @@ nav ul li{
     padding-right: 1em;
     font-size: 125%;
 }
+/* -- Logo Stuff -- */
 .logo{
     margin: auto;
-    padding-left: 2em;
-    padding-top: 1em;
+    font-size: 200%;
 }
-.logo img{
-    margin: auto;
-    width: 50%;
+.logo a{
+    text-decoration: none;
+    color: #fff;
+}
+.logo a:hover{color: #fff;}
+.logo a:clicked{color: #fff;}
+
+/* index.html */
+header{
+
+    display: grid;
+    grid-template-columns: 20% 80%;
+    font-family: 'Madimi One', sans-serif;
 }
 .home{
     color: #fff;
@@ -40,20 +46,31 @@ h1{
     padding-top: 2em;
     font-size: 400%;
 }
-.button{
-    border: 3px solid #fff;
-    display: inline-block;
-    padding: 1em;
-}
-#wrapper{
-    margin: 20px
-}
-footer{
-    padding-top: 35vh;
-    text-align: center;
-}
+/* -- Background Image -- */
 .bkg{
     background-image: url(../images/background.png);
     min-height: 100vh;
     background-size: cover;
 }
+/* -- See my Work Button --*/
+.button{
+    border: 3px solid #fff;
+    display: inline-block;
+    padding: 1em;
+}
+.button a{
+    text-decoration: none;
+    color: #fff;
+}
+.button a:hover{color: #fff;}
+.button a:visited{color: #fff;}
+
+#wrapper{
+    margin: 20px
+}
+footer{
+    padding-top: 40vh;
+    text-align: center;
+    color: #fff;
+}
+/* -- End of Index.html -- */
