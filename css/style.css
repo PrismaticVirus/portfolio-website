@@ -8,6 +8,9 @@ nav a{
     text-decoration: none;
     color: white;
 }
+nav a:hover{
+    color: rgba(0,0,0,0.5);
+}
 nav{
     justify-self: right;
     padding-right: 1em
@@ -74,3 +77,78 @@ footer{
     color: #fff;
 }
 /* -- End of Index.html -- */
+
+/* Projects.html */
+.projects{
+    padding-top: 2em;
+    margin: 3em;
+}
+.project-card{
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #fff;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+
+}
+.project-card img {
+    width: 200px;
+}
+.project-card h2{
+    margin-top: 0;
+}
+.project-card p{
+    font-size: small;
+}
+.title{
+    text-align: center;
+    color: #fff;
+}
+
+/* Contact.html */
+form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    width: 30vw;
+    margin-bottom: .5em;
+    margin: auto;
+}
+form label{
+    color: #fff;
+    font-size: x-large;
+}
+form textarea{
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    border: none;
+}
+form input{
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    border: none; 
+}
+form button{
+    color: #fff;
+    padding: 0px;
+    margin-top: 10px;
+    text-align: left;
+    font-size: xx-large;
+    width: 10vh;
+    background: none;
+    border: none;
+    text-decoration: underline;
+}
+form button:hover{
+    color: rgba(0,0,0,0.5);
+}
+.socials{
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+
+}
+.socials img{ width: 100px; padding: 3em;}
