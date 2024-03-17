@@ -80,10 +80,14 @@ footer{
 
 /* Projects.html */
 .projects{
+    display: flex;
+    justify-content: center;
     padding-top: 2em;
-    margin: 3em;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .project-card{
+    margin: auto;
     display: inline-block;
     text-align: center;
     border: 2px solid #fff;
@@ -152,3 +156,32 @@ form button:hover{
 
 }
 .socials img{ width: 100px; padding: 3em;}
+
+/* Experience */
+.skills{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    
+}
+
+.skillContainer{
+    text-align: center;
+    color: #fff;
+    padding: 1em;
+}
+.skillContainer h2{ padding: 0; margin: 0;}
+
+/* About */
+.about{
+    margin: 100px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.about img{
+    width: 100%;
+    border-radius: 1.5em;
+}
+.about p{
+    font-size: large;
+}
