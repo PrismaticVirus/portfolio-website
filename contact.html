@@ -21,14 +21,14 @@
                 </ul>
             </nav>
         </header>
-
+        <script src="scripts/formValidation.js"></script>
         <body>
             <h1 class="title">Send me an Email!</h1>
-            <form action="https://formspree.io/f/xzbnvjwr" method="POST">
+            <form action="form.html" onsubmit="return validateForm()">
                 <label for="name">Name:</label>
                 <input type="text" name="name">
                 <label> Email: </label>
-                <input type="email" name="email" size="500">
+                <input type="email" name="email" id="email" size="500">
                 <label>Message: </label>
                 <textarea name="message"></textarea>
                 <button type="submit">Send!</button>
@@ -36,9 +36,9 @@
             <h1 class="title">Other Ways to reach me</h1>
             <section class="socials">
 
-                <a href="socials.html"><img src="images/twitter.svg" alt=""></a>
-                <a href="socials.html"><img src="images/instagram.svg" alt=""></a>
-                <a href="socials.html"><img src="images/linkedn.svg" alt=""></a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="images/twitter.svg" alt=""></a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="images/instagram.svg" alt=""></a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="images/linkedn.svg" alt=""></a>
             </section>
         </body>
         <footer>

@@ -31,8 +31,10 @@ nav ul li{
     color: #fff;
 }
 .logo a:hover{color: #fff;}
-.logo a:clicked{color: #fff;}
-
+.logo a:visited{color: #fff;}
+footer p a{color: #fff;}
+footer p a:clicked{color: #fff;}
+footer p a:hover{color: #fff;}
 /* index.html */
 header{
 
