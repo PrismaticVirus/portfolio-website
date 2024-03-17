@@ -216,20 +216,30 @@ form button:hover{
 .socials img{ width: 100px; padding: 3em;}
 
 /* Experience */
-.skills{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    justify-content: center;
-    
+table{
+    margin: auto;
+    align-items: center;
+    width: 60%;
+    border: 1px solid #fff;
+    border-collapse: collapse;
+    margin-bottom: 1em;
 }
-
-.skillContainer{
+td{
     text-align: center;
-    color: #fff;
-    padding: 1em;
-}
-.skillContainer h2{ padding: 0; margin: 0;}
+    color: white;
+    padding: 5px;
+    border: 1px solid #fff;
+    background-color: rgba(0, 0, 0, 0.5);
 
+}
+th{
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+    padding: 5px;
+    border: 2px solid #fff;
+}
 /* About */
 .about{
     margin: 100px;
@@ -262,5 +272,34 @@ form button:hover{
       display: block;
     }
     /* End Dropdown */
-  }
-  
+    /* About */
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    /* experience */
+    table{
+        width: 70vw;
+    }
+    /* projects */
+    .projects{
+        flex-direction: column;
+    }
+    .project-card{
+        margin-top: 1em;
+        width: 50vw;
+    }
+    .project-card img{
+        width: 50vw;
+    }
+    /* contact */
+    form{
+        width: 70vw;
+    }
+    .socials{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    /*  */
+}
