@@ -1,54 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
-*{
+
+* {
     font-family: 'Madimi One', sans-serif;
 }
 
 /* -- Navigation Bar Stuff -- */
-nav a{
+nav a {
     text-decoration: none;
     color: white;
 }
-nav a:hover{
-    color: rgba(0,0,0,0.5);
+
+nav a:hover {
+    color: rgba(0, 0, 0, 0.5);
 }
-nav{
+
+nav {
     justify-self: right;
     padding-right: 1em
 }
-nav ul li{
+
+nav ul li {
     display: inline-block;
     padding-left: 1em;
     padding-right: 1em;
     font-size: 125%;
 }
+
 /* -- Logo Stuff -- */
-.logo{
+.logo {
     margin: auto;
     font-size: 200%;
 }
-.logo a{
+
+.logo a {
     text-decoration: none;
     color: #fff;
 }
-.logo a:hover{color: #fff;}
-.logo a:visited{color: #fff;}
-footer p a{color: #fff;}
-footer p a:clicked{color: #fff;}
-footer p a:hover{color: #fff;}
+
+.logo a:hover {
+    color: #fff;
+}
+
+.logo a:visited {
+    color: #fff;
+}
+
+footer p a {
+    color: #fff;
+}
+
+footer p a:clicked {
+    color: #fff;
+}
+
+footer p a:hover {
+    color: #fff;
+}
 
 /* Dropdown menu */
 .navbar {
     background-color: rgba(0, 0, 0, 0.5);
     padding-right: 0;
-  }
+}
 
-  .dropdown {
+.dropdown {
     position: relative;
     display: none;
     text-align: center;
-  }
-  
-  .dropbtn {
+}
+
+.dropbtn {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     border: none;
@@ -57,118 +78,144 @@ footer p a:hover{color: #fff;}
     display: none;
     width: 100%;
     padding: 10px 0;
-  }
-  
-  .dropdown-content {
+}
+
+.dropdown-content {
     display: none;
     background-color: #f9f9f9;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     width: 100%;
     position: absolute;
     margin: 0;
     padding: 0;
-  }
-  .dropdown-content ul{
+}
+
+.dropdown-content ul {
     text-decoration: none;
     list-style-type: none;
     padding: 0;
     margin: 0;
-  }
-  .dropdown-content ul li{
+}
+
+.dropdown-content ul li {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     list-style-type: none;
-  }
-  .dropdown-content ul li a{
+}
+
+.dropdown-content ul li a {
     color: black;
-  }
-  
-  .dropdown-content ul li:hover {
+}
+
+.dropdown-content ul li:hover {
     background-color: #ddd;
-  }
-  
-  .dropdown:hover .dropdown-content {
+}
+
+.dropdown:hover .dropdown-content {
     display: block;
-  }
-  
+}
+
 /* index.html */
-.regnav{
+.regnav {
     display: grid;
     grid-template-columns: 20% 80%;
     font-family: 'Madimi One', sans-serif;
 }
-.home{
+
+.home {
     color: #fff;
     text-align: center;
 }
-h1{
+
+#home {
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
     padding-top: 2em;
     font-size: 400%;
 }
+
 /* -- Background Image -- */
-.bkg{
+.bkg {
     background-image: url(../images/background.png);
     min-height: 100vh;
     background-size: cover;
 }
+
 /* -- See my Work Button --*/
-.button{
+.button {
     border: 3px solid #fff;
     display: inline-block;
     padding: 1em;
 }
-.button a{
+
+.button a {
     text-decoration: none;
     color: #fff;
 }
-.button a:hover{color: #fff;}
-.button a:visited{color: #fff;}
 
-#wrapper{
+.button a:hover {
+    color: #fff;
+}
+
+.button a:visited {
+    color: #fff;
+}
+
+#wrapper {
     margin: 20px
 }
-footer{
+
+footer {
     padding-top: 40vh;
     text-align: center;
     color: #fff;
 }
+
 /* -- End of Index.html -- */
 
 /* Projects.html */
-.projects{
+.projects {
     display: flex;
     justify-content: center;
     padding-top: 2em;
     margin-left: 100px;
     margin-right: 100px;
 }
-.project-card{
+
+.project-card {
     margin: auto;
     display: inline-block;
     text-align: center;
     border: 2px solid #fff;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
 
 }
+
 .project-card img {
     width: 200px;
 }
-.project-card h2{
+
+.project-card h2 {
     margin-top: 0;
 }
-.project-card p{
+
+.project-card p {
     font-size: small;
 }
-.title{
+
+.title {
     text-align: center;
     color: #fff;
 }
 
 /* Contact.html */
-form{
+form {
     display: flex;
     flex-direction: column;
     padding-left: 1em;
@@ -176,21 +223,25 @@ form{
     margin-bottom: .5em;
     margin: auto;
 }
-form label{
+
+form label {
     color: #fff;
     font-size: x-large;
 }
-form textarea{
-    background: rgba(0,0,0,0.5);
+
+form textarea {
+    background: rgba(0, 0, 0, 0.5);
     color: #fff;
     border: none;
 }
-form input{
-    background: rgba(0,0,0,0.5);
+
+form input {
+    background: rgba(0, 0, 0, 0.5);
     color: #fff;
-    border: none; 
+    border: none;
 }
-form button{
+
+form button {
     color: #fff;
     padding: 0px;
     margin-top: 10px;
@@ -201,10 +252,12 @@ form button{
     border: none;
     text-decoration: underline;
 }
-form button:hover{
-    color: rgba(0,0,0,0.5);
+
+form button:hover {
+    color: rgba(0, 0, 0, 0.5);
 }
-.socials{
+
+.socials {
     padding-left: 1em;
     padding-right: 1em;
     margin: auto;
@@ -213,10 +266,14 @@ form button:hover{
     justify-content: center;
 
 }
-.socials img{ width: 100px; padding: 3em;}
+
+.socials img {
+    width: 100px;
+    padding: 3em;
+}
 
 /* Experience */
-table{
+table {
     margin: auto;
     align-items: center;
     width: 60%;
@@ -224,7 +281,8 @@ table{
     border-collapse: collapse;
     margin-bottom: 1em;
 }
-td{
+
+td {
     text-align: center;
     color: white;
     padding: 5px;
@@ -232,7 +290,8 @@ td{
     background-color: rgba(0, 0, 0, 0.5);
 
 }
-th{
+
+th {
     background-color: rgba(0, 0, 0, 0.7);
     font-size: large;
     font-weight: bolder;
@@ -240,66 +299,117 @@ th{
     padding: 5px;
     border: 2px solid #fff;
 }
+
 /* About */
-.about{
+.about {
     margin: 100px;
     display: grid;
     grid-template-columns: 30% 70%;
 }
-.about img{
+
+.about img {
     width: 100%;
     border-radius: 1.5em;
 }
-.about p{
+
+.about p {
     font-size: large;
 }
 
+/* Loading Ring */
+#loading-ring {
+    padding: 0;
+    position: relative;
+    display: block;
+    text-align: center;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+#loading-ring #ring {
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 50vh;
+    height: 50vh;
+    border: 15px solid #fff;
+    border-radius: 50%;
+    animation: loading-ring-animation 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #fff transparent transparent transparent;
+}
+
+@keyframes loading-ring-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
 
 /* Media Queeries */
 
 @media screen and (max-width: 600px) {
+
     /* Dropdown */
-    .regnav{
+    .regnav {
         display: none;
     }
+
     .dropdown {
-      display: block;
+        display: block;
     }
+
     .dropbtn {
-      display: block;
+        display: block;
     }
+
     .dropdown:hover .dropdown-content {
-      display: block;
+        display: block;
     }
+
     /* End Dropdown */
     /* About */
-    .about{
+    .about {
         display: flex;
         flex-direction: column;
     }
+
     /* experience */
-    table{
+    table {
         width: 70vw;
     }
+
     /* projects */
-    .projects{
+    .projects {
         flex-direction: column;
     }
-    .project-card{
+
+    .project-card {
         margin-top: 1em;
         width: 50vw;
     }
-    .project-card img{
+
+    .project-card img {
         width: 50vw;
     }
+
     /* contact */
-    form{
+    form {
         width: 70vw;
     }
-    .socials{
+
+    .socials {
         display: flex;
         flex-direction: column;
         text-align: center;
     }
+
     /*  */
 }
